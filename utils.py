@@ -15,3 +15,9 @@ def zm(a, b):
         a, b = b, a % b
 
     return a
+
+def check_if_even(n):
+    if n % 2 == 0:
+        print("yes")
+    else:
+        print("no")
